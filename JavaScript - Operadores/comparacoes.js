@@ -17,3 +17,11 @@ console.log(typeof numero, typeof texto);
 // não utilizar ==, utilize === e faça conversão
 //Number();
 //String();
+
+//outros operadores
+
+/* 
+||: Operador “ou”, retorna true caso uma condição seja válida;
+&&: Operador “e”, retorna true somente se todas as condições forem válidas;
+!= e !==: Operadores “não igual” e “estritamente não igual”
+*/
