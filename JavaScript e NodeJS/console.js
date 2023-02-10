@@ -8,3 +8,5 @@ console.log(minhaVar);
 //console.error() - coloca mensagem de erro  - tratamento de erro
 
 console.error('Erro!');
+
+console.error(new Error('Erro Completo'));
