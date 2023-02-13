@@ -24,7 +24,8 @@ console.log (nomeIdade('28', 'Michael'));
 function multiplica(num1, num2) {
     return num1 * num2;
 }
-
+0,
+0
 console.log(multiplica(soma(2,3), soma(4,5)));
 
 
