@@ -33,3 +33,4 @@ console.log(soma());
 
 //resultado de função dentro de outra função
 imprimeTexto(soma());
+
