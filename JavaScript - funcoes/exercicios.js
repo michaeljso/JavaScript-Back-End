@@ -63,3 +63,18 @@ const z = 1
 const numpassos = atravessaRua(x,y,z);
 
 console.log(numpassos);
+
+
+//arrow function
+
+const numeropassos1 = (x,y,z) =>{
+    const distancia1 = y-x;
+    const numeropassos1 = Math.ceil(distancia1/z);
+    return numeropassos1;
+}
+
+const x1 = 6;
+const y1 = 55;
+const z1 = 1;
+
+console.log(numeropassos1(x1,y1,z1));
