@@ -78,3 +78,32 @@ const y1 = 55;
 const z1 = 1;
 
 console.log(numeropassos1(x1,y1,z1));
+
+//exercicio com array
+
+let carrinho = [
+    { nome: 'abacaxi', preco: '2.00' },
+    { nome: 'detergente', preco: '2.50' },
+    { nome: 'bolacha', preco: '3.80' }
+];
+const imprimeProduto = (nome, preco) => {
+    console.log(`Produto: ${nome} | Preço: ${preco}`);
+}
+
+carrinho.forEach((produto) => imprimeProduto(produto.nome, produto.preco));
+
+//exercico com aray 2
+let itens = ['abacaxi', 'bana', 'maçã', 'laranja', 'limão'];
+itens.forEach((item) => console.log(item));
+
+
+let palavroes = [
+    "Inconstitucionalíssimo",
+    "Otorrinolaringologista",
+    "Pneumoultramicroscopicossilicovulcanoconiose",
+    "Oftalmotorrinolaringologista"
+];
+
+let tamanhos =  palavroes.map(palavrao => palavrao.length)
+
+console.log(tamanhos); // [ 22, 22, 44, 28 ]
