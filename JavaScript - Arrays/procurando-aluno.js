@@ -26,7 +26,9 @@ exibeNomeENota('João');
 // arrow function
 const notaAluno = (aluno2) => {
     if (listaCompleta[0].includes(aluno2)) {
+        //verifica em qual indice está o parametro passado
         const indice2 = listaCompleta[0].indexOf(aluno2);
+        //pega a media correspondente ao indice encontrado acima
         const mediaAluno2 = listaCompleta[1][indice2] 
         return `${aluno2} tem a média ${mediaAluno2}!`;
         //console.log(`${aluno2} tem a média de ${mediaAluno2}!`)
