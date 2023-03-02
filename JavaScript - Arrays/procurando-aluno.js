@@ -12,9 +12,14 @@ const listaCompleta = [alunos, medias];
 function exibeNomeENota(aluno) {
     //verifica com includes se existe o correspondente dentro do array
     if (listaCompleta[0].includes(aluno)) {
+        //const alunos = listaCompleta[0];
+        //const medias = listaCompleta[1];
+        
+        const [alunos, medias] = listaCompleta; //nomea os arrays 
+
         //verifica qual o indice do parametro
-        const indice = listaCompleta[0].indexOf(aluno);
-        const mediaAluno = listaCompleta[1][indice];
+        const indice = alunos.indexOf(aluno);
+        const mediaAluno = medias[indice];
         console.log(`${aluno} tem a média ${mediaAluno}`);
     } else {
         console.log('Aluno não cadastrado')
@@ -25,11 +30,11 @@ exibeNomeENota('João');
 
 // arrow function
 const notaAluno = (aluno2) => {
-    if (listaCompleta[0].includes(aluno2)) {
+    if (alunos.includes(aluno2)) {
         //verifica em qual indice está o parametro passado
-        const indice2 = listaCompleta[0].indexOf(aluno2);
+        const indice2 = alunos.indexOf(aluno2);
         //pega a media correspondente ao indice encontrado acima
-        const mediaAluno2 = listaCompleta[1][indice2] 
+        const mediaAluno2 = medias[indice2] 
         return `${aluno2} tem a média ${mediaAluno2}!`;
         //console.log(`${aluno2} tem a média de ${mediaAluno2}!`)
 
@@ -44,7 +49,7 @@ console.log(notaAluno('Juliana'));
 //codigo reduzido utilizando operador ternário:
 
 const notaAluno2= (aluno3) =>
-  listaCompleta[0].includes(aluno) ? `${aluno3} tem a média ${listaCompleta[1][listaCompleta[0].indexOf(aluno3)]}!` : 'Aluno não cadastrado!';
+  alunos.includes(aluno) ? `${aluno3} tem a média ${medias[alunos.indexOf(aluno3)]}!` : 'Aluno não cadastrado!';
 
 console.log(notaAluno('Caio'));
 
