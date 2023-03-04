@@ -31,6 +31,6 @@ for (let index = 0; index < numeros.length; index++) {
 
 // javascript
 
-// for (var i = 1; i <= 5; i++) {
+// for (let i = 1; i <= 5; i++) {
 //   console.log(i);
 // }
