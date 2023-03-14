@@ -34,3 +34,13 @@ for (let index = 0; index < numeros.length; index++) {
 // for (let i = 1; i <= 5; i++) {
 //   console.log(i);
 // }
+
+//desafio
+
+const imprimeNumeros = (numero) => {
+    for (let i =1; i <= numero; i++){
+        console.log(i)
+    }
+}
+
+imprimeNumeros(5);
