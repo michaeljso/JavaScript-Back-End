@@ -3,9 +3,10 @@ const notas = [10, 6.5 ,8, 7.5];
 let somaDasNotas = 0;
 
 //callback
-notas.forEach(function (nota) {
+//da o valor e o indice do array
+notas.forEach(function (nota,indice) {
     somaDasNotas += nota;
-    
+    console.log(indice);
     //console.log('oi');
 });
 
