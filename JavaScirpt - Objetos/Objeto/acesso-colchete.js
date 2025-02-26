@@ -26,6 +26,7 @@ const estudante = {
 
 estudante.nome //jose
 
+//função para retornar dinamicamente os dados de um objeto passando como parametro a chave desejada
 function exibeInfoEstudante(objEstudante,infoEstudante){
     return objEstudante[infoEstudante];
 }
