@@ -21,9 +21,15 @@ console.log(pessoa);
 
 
 //Erro
-const novaPessoa = {
-    nome: "Pedro",
-};
+//const novaPessoa = {
+//    nome: "Pedro",
+//};
 
-pessoa = novaPessoa;
+//pessoa = novaPessoa;
 
+//codigo novo aula atualizada
+
+//pode criar obj vazio e atribuir propriedades depois
+estudante2 ={};
+estudante2.nome = 'Ana Maria';
+console.log(estudante2.nome);
