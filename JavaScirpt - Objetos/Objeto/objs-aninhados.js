@@ -7,7 +7,7 @@ const estudante = {
     telefones: ['62994280497','62996806162'] //array  -- dados de um mesmo formato
 }
 
-//adicionando obj dentro do obj -- dados de um mesmo contexto
+//adicionando obj dentro do obj -- obj aninhado
 estudante.endereco = {
     rua: 'Rua Benedito Luiz dias',
     numero: '45',
